@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff6c22;
+}
+
+.container {
+  width: 857px;
+  height: 512px;
+  border-radius: 0px 4px 4px 0px;
+  background: #fff;
+}
+
+.container-login {
+  background: url("assets/background-image.png") no-repeat right top;
+}
+
+.wrap-login {
+  display: flex;
+  padding: 0px 4rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgLogin-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.computer-img {
+  margin-top: 6.2rem;
+}
+
+.login-form-title {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 186.5%;
+  color: #c7c7c7;
+  margin: 10px;
+}
+
+.wrap-input input {
+  width: 313px;
+  height: 44px;
+  left: 561px;
+  top: 572px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.color-orange {
+  color: #ff6c22;
+}
+
+::-webkit-input-placeholder {
+  color: #c7c7c7;
+  font-family: "Advent Pro";
+  font-size: 12px;
+  padding: 10px;
+}
+
+.container-login-form-btn button {
+  width: 151px;
+  height: 40px;
+  background: #2eafb2;
+  border-radius: 5px;
+  border: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 10px;
+}
